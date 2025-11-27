@@ -1,42 +1,52 @@
-# Pratica-Flask
+Prática – Flask
+
+Este projeto implementa as rotas solicitadas nas Questões 1 e 2 da atividade.
 
 Questão 1 – Adicionar duas rotas (GET e POST)
-
 🔹 1.a) Rota GET com variáveis na rota
 
-Envia os valores diretamente na URL, por exemplo:
+Recebe dois números diretamente pela URL.
 
+Exemplo de uso:
 /soma/10/20
 
-✔ Retorna:
-
+Retorno esperado:
 A soma é 30
 
-🔹 1.b) Rota POST usando JSON
+🔹 1.b) Rota POST recebendo dois números (formulário)
 
-Enviar requisição POST com JSON:
+Envia dois valores usando uma requisição POST.
 
-Exemplo:
-{
-  "num1": 10,
-  "num2": 20
-}
+Campos esperados:
 
-✔ Retorna:
+num1
 
-{
-  "resultado": 30
-}
+num2
 
-Questão 2 – Modificar as rotas GET para NÃO usar parâmetros na rota
+Exemplo de envio:
+num1=10
+num2=20
 
-Agora a rota recebe os valores via query string, assim:
+Retorno esperado:
+A soma é 30
 
-/soma_query?num1=10&num2=20
+Questão 2 – Rota GET sem variáveis na URL (query string)
+
+Agora os valores são enviados como parâmetros de consulta (query params).
+
+Exemplo de uso:
+/soma2?num1=10&num2=20
+
+Retorno esperado:
+A soma é 30
 
 ▶ Como executar
+
+No terminal, dentro da pasta do projeto:
+
+```
 python app.py
+```
 
-A aplicação ficará disponível em:
-
+A aplicação estará disponível em:
 http://localhost:5000
