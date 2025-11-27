@@ -1,8 +1,11 @@
-Prática – Flask
+# Prática – Flask
 
 Este projeto implementa as rotas solicitadas nas Questões 1 e 2 da atividade.
 
+---
+
 Questão 1 – Adicionar duas rotas (GET e POST)
+
 🔹 1.a) Rota GET com variáveis na rota
 
 Recebe dois números diretamente pela URL.
