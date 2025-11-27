@@ -1,12 +1,15 @@
 # Pratica-Flask
 
 Questão 1 – Adicionar duas rotas (GET e POST)
+
 🔹 1.a) Rota GET com variáveis na rota
 
 Envia os valores diretamente na URL, por exemplo:
+
 /soma/10/20
 
 ✔ Retorna:
+
 A soma é 30
 
 🔹 1.b) Rota POST usando JSON
